@@ -14,6 +14,13 @@
         
             <p>Nombre: {{familiar.nombre}} </p>
             <p>Año nacimiento: {{familiar.anio_nacimiento}} </p>
+            {%if familiar.casado == True %}
+                <p>Es casado/a</p>
+            {% else %}
+                <p>No es casado/a</p>
+            {% endif %}
+
+
             
         
         {% endfor %}
