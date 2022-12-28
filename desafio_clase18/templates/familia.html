@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    
+    {% for familiar in Familia %}
+
+    <p>Nombre: {{familiar.Nombre}} </p>
+    <p>Año de nacimiento : {{familiar.anio_nacimiento}} </p>
+    {% endfor %}
 </body>
 </html>

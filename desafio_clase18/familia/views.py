@@ -5,7 +5,7 @@ from familia.models import Familia
 # Create your views here.
 
 def crear_familiar(request):
-    nuevo_familiar = Familia.objects.create(nombre= 'Hector',anio_nacimiento= 1963, casado= True)
+    nuevo_familiar = Familia.objects.create(nombre= 'Fernanda',anio_nacimiento= 1972, casado= True)
     print(nuevo_familiar)
     return HttpResponse('Un miembro de la familia se ha añadido')
 

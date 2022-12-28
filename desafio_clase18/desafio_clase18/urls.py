@@ -7,5 +7,5 @@ from familia.views import crear_familiar, lista_familia
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('crear_familiar/', crear_familiar),
-    path('lista_familia/', lista_familia)
+    path('familia/', lista_familia)
 ]
